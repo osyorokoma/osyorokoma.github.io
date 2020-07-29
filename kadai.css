@@ -1,0 +1,51 @@
+
+
+body {
+    background-color:#F4F4F4;
+    margin: 40px;
+}
+
+h1 {
+    color: #43677C;
+    border-bottom: dashed 2px #43677C;
+    padding: px;
+    margin-top: px
+    
+}
+
+h2 {
+    color: #43677C;
+    border-bottom: dashed 2px #43677C;
+    padding: ;
+    margin-left: px;
+}
+
+h3 {
+    color: #43677C;
+    border-bottom: dashed 1px #43677C;
+    margin-left: 20;
+    
+}
+
+p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  
+}
+
+ul {
+    margin-left: 20px;
+  
+}
+
+
+
+select {
+    outline-color: #7A8E93;
+    outline-style: solid;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+
