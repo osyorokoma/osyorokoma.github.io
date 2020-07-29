@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>箱根旅</title>
+    <meta name="description" content="箱根でオススメの観光地を紹介するウェブサイトです。" />
+
+</head>
+
+<body>
+    <header>
+        <h1>箱根のおすすめ観光地</h1>
+
+
+    </header>
+
+    <img src='../Kadai/images/Scenery.JPG' alt="箱根の景色" width="700" height="500" />
+
+    <div>
+        <h2>はじめに</h2>
+        <p>日本有数の観光地、箱根。このウェブページでは、箱根に行くならぜひ訪れて欲しい観光地をご紹介します。</p>
+
+    </div>
+    <div>
+        <h2>箱根でオススメの観光地</h2>
+        <ul>
+            <li><a href="#hoshi">星の王子さまミュージアム</a></li>
+            <li><a href="#glass">ガラスの森美術館</a></li>
+            <li><a href="#ship">遊覧船</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <h3 id="hoshi">星の王子さまミュージアム</h3>
+        <div class="image-box">
+            <img src="../kadai/images/IMG_7030.JPG" width="600" height="500" />
+            <img src='../Kadai/images/rose%20flower.JPG' alt="バラの花" width="400" height="500" />
+
+            <p>プロの手で整えられた季節ごとの花々が楽しめる豪華なガーデンがあります。<br>
+                登場キャラクターのオブジェやヨーロッパ風の建物も多く、写真映えするスポットです。<br>
+            </p>
+            <h3 id="glass">ガラスの森美術館</h3>
+            <img src='../Kadai/images/blue%20glass.JPG' alt="船" width="500" height="550" />
+            <p>中世ヨーロッパで流行したヴェネチアン・グラスを鑑賞できる美術館と、現代のガラス作家の作品が展示された美術館の2館に入場できます。<br>
+                建物の奥には人口庭園があり、季節の植物とともに、光を反射するクリスタル・ガラスの景色を楽しめます。</p>
+            <h3 id="ship">遊覧船</h3>
+            <img src='../Kadai/images/ship1.JPG' alt="船" width="500" height="350" />
+            <p>箱根観光といえば、芦ノ湖を回遊する遊覧船です。<br>
+                30分〜70分の周遊で、箱根の観光地を巡りながら、大自然とともに富士山の絶景を楽しめます。<br>
+            </p>
+
+
+
+        </div>
+
+        <div>
+            <h2>観光地へのアクセス・詳細</h2>
+            <p>以下のメニューより詳しく知りたい観光地をお選びください</p>
+            <select onchange="location.href=value;">
+                <option value="">ページを選んでください</option>
+                <option value="kadai1.html">トップページ</option>
+                <option value="kadai2.html">星の王子さまミュージアム</option>
+                <option value="kadai3.html">ガラスの森美術館</option>
+                <option value="kadai4.html">観光船</option>
+            </select>
+
+        </div>
+
+        <link rel="stylesheet" href="./kadai.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/test.js">
+        </script>
+</body>
+<footer>
+    Copyright &copy; Ht, ALL Rights Reserved.
+</footer>
+
+</html>
